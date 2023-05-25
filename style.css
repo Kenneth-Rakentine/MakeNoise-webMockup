@@ -1,0 +1,116 @@
+body{
+    background-color:black;
+    font-family: aaaaaaa, Lucida Console, Monaco, monospace;
+
+}
+
+.navContainer{
+/* position: fixed; */
+border:solid rgb(165, 165, 165);
+height: 40px;
+border-width:0.2px;
+background-color:transparent;
+display:flex;
+}
+
+.logo{
+height:20px;
+color:black;
+
+}
+
+.arrow{
+    height:100px;
+    display:flex;
+    justify-content: left;
+    align-items: left;
+    padding-right:280px;
+}
+
+.themeContainer{
+font-size:11px;
+text-align:left;
+color:rgb(233, 233, 233);
+display:flex;
+padding-left:90px;
+padding-top:13px;
+/* padding-bottom:50px; */
+}
+
+
+.headContainer{
+display:flex;
+justify-content:center;
+border:solid rgb(185, 185, 185);
+height: 26vh;
+/* margin:1em; */
+border-width:0.2px;
+
+    
+}
+
+.mnlogo{
+    height: 80px;
+    align-items:center;
+    padding-top: 60px;
+    
+    /* padding-right:200px; */
+    /* display:flex;
+    justify-content:center; */
+}
+
+.soc{
+display:block;
+align-items:right;
+height: 6.2vh;
+padding-left:80px;
+
+}
+
+
+.mainContainer{
+border:solid rgb(165, 165, 165);
+height: 8vh;
+margin:1em;
+border-width:0.2px;
+
+    
+}
+
+.spectra{
+
+width:100%;
+
+}
+
+.moduleContainer{
+border:solid rgb(165, 165, 165);
+height: 22vh;
+margin:1em;
+border-width:0.2px;
+
+    
+}
+
+.footContainer{
+border:solid rgb(165, 165, 165);
+background-color: rgb(87, 84, 84) (666, 666, 666);  
+height: 22vh;
+margin:1em;
+border-width:0.2px;
+
+    s
+}
+
+.cube{
+height:18vh;
+padding-top:16px;
+
+}
+
+.foothand{
+   display:flex;
+   justify-content:right;
+   height:100px;
+   /* padding-bottom:80px; */
+}
