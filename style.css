@@ -6,10 +6,9 @@ body{
 
 .navContainer{
 /* position: fixed; */
-border:solid rgb(165, 165, 165);
 height: 40px;
 border-width:0.2px;
-background-color:transparent;
+background-color:rgb(19, 18, 18);
 display:flex;
 }
 
@@ -22,9 +21,9 @@ color:black;
 .arrow{
     height:100px;
     display:flex;
-    justify-content: left;
+    justify-self: left;
     align-items: left;
-    padding-right:280px;
+    /* padding-right:300px; */
 }
 
 .themeContainer{
@@ -40,23 +39,32 @@ padding-top:13px;
 
 .headContainer{
 display:flex;
-justify-content:center;
-border:solid rgb(185, 185, 185);
+/* justify-content:center; */
 height: 26vh;
+justify-content:space-between;
 /* margin:1em; */
 border-width:0.2px;
+background-color: rgb(19, 18, 18);
 
     
 }
 
 .mnlogo{
-    height: 80px;
-    align-items:center;
-    padding-top: 60px;
+    height: 100px;
+    align-self:center;
+    justify-self:center;
+    /* padding-top: 60px; */
+
     
     /* padding-right:200px; */
     /* display:flex;
     justify-content:center; */
+}
+
+.dispatchContainer{
+position:relative;
+right:0;
+
 }
 
 .soc{
@@ -70,17 +78,19 @@ padding-left:80px;
 
 .mainContainer{
 border:solid rgb(165, 165, 165);
-height: 8vh;
+height: 50vh;
 margin:1em;
 border-width:0.2px;
+margin-top:-17px;
 
     
 }
 
 .spectra{
-
-width:100%;
-
+    align-self:center;
+    justify-self:center;
+    height:100%;
+    width:100%;
 }
 
 .moduleContainer{
@@ -88,18 +98,38 @@ border:solid rgb(165, 165, 165);
 height: 22vh;
 margin:1em;
 border-width:0.2px;
+display:flex;
+justify-content:space-evenly;
 
     
 }
 
+.rowOne{
+    border:solid grey;
+    border-width: .2px;
+    height:22vh;
+}
+
+.rowTwo{
+    border:solid grey;
+    border-width: .2px;
+    height:22vh;
+}
+
+.grid{
+    border:solid grey;
+    display:flex;
+    justify-content:space-evenly;
+}
+
 .footContainer{
 border:solid rgb(165, 165, 165);
-background-color: rgb(87, 84, 84) (666, 666, 666);  
+background-color: rgb(71, 71, 71) (666, 666, 666);  
 height: 22vh;
 margin:1em;
 border-width:0.2px;
 
-    s
+    
 }
 
 .cube{
@@ -110,7 +140,8 @@ padding-top:16px;
 
 .foothand{
    display:flex;
+   align-self:right;
    justify-content:right;
    height:100px;
-   /* padding-bottom:80px; */
+   /* margin-bottom:100px; */
 }
